@@ -38,9 +38,6 @@ h2 {
 }
 
 @media screen and (max-width: 500px) {
-  body {
-    background: white;
-  }
   h1 {
     font-size: 2rem;
   }
