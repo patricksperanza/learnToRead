@@ -1,0 +1,37 @@
+body {
+  text-align: center;
+  background: linear-gradient(#f7d0d6, #ffc3a0);
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  margin: auto;
+  margin-top: 60px;
+  border: 5px solid rgba(165, 42, 42, 0.647);
+  width: 53%;
+  padding: 10% 2%;
+  background: linear-gradient(rgb(55, 55, 55), rgb(70, 70, 70));
+  border-radius: 2%;
+  font-size: 6rem;
+  color: white;
+  letter-spacing: 7px;
+  font-family: Handlee, sans-serif;
+}
+
+.button {
+  width: 25vw;
+  height: 8vw;
+  border-radius: 10%;
+  background: rgb(206, 238, 249);
+  margin-top: 2%;
+  font-size: 2rem;
+  color: black;
+}
+
+.button:hover {
+  background: rgb(225, 224, 224);
+  color: white;
+}
