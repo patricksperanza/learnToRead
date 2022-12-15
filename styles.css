@@ -12,7 +12,8 @@ h2 {
   margin-top: 45px;
   border: 5px solid rgba(165, 42, 42, 0.647);
   width: 53%;
-  padding: 10% 2%;
+  height: 16vh;
+  padding: 10% 0;
   background: linear-gradient(rgb(55, 55, 55), rgb(70, 70, 70));
   border-radius: 2%;
   font-size: 6rem;
@@ -27,11 +28,28 @@ h2 {
   border-radius: 10%;
   background: rgb(206, 238, 249);
   margin-top: 2%;
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: black;
 }
 
 .button:hover {
   background: rgb(225, 224, 224);
   color: white;
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    background: white;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  .button {
+    font-size: 0.5rem;
+  }
 }
