@@ -18,6 +18,7 @@ words = [
   "MY",
   "HE",
   "SHE",
+  "YES",
 ]
 
 function getWord() {
