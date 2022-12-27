@@ -13,6 +13,11 @@ words = [
   "IT",
   "ON",
   "WE",
+  "AND",
+  "NO",
+  "MY",
+  "HE",
+  "SHE",
 ]
 
 function getWord() {
